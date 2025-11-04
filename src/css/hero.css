@@ -24,9 +24,6 @@
 }
 
 .paragraph-hero {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
   line-height: 150%;
   color: var(--color-white);
   margin-bottom: 32px;
@@ -60,11 +57,11 @@
   }
 
   .title-hero {
-    width: 560px;
+    max-width: 560px;
   }
 
   .paragraph-hero {
-    width: 560px;
+    max-width: 560px;
   }
 }
 
