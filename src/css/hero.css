@@ -1,17 +1,16 @@
 .hero {
   padding: 108.5px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/hero/img-hero.jpg);
+    url(/img/hero/img-hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50%;
 }
 
 @media (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../img/hero/img-hero@2x.jpg);
+      url(/img/hero/img-hero@2x.jpg);
   }
 }
 
