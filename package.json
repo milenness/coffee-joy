@@ -1,11 +1,11 @@
 {
-  "name": "demo-vite",
+  "name": "coffee-joy",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/demo-vite/",
+    "build": "vite build --base=/coffee-joy/",
     "preview": "vite preview"
   },
   "devDependencies": {
