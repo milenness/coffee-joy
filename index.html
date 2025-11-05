@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css" />
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" crossorigin href="/coffee-joy/assets/index-BfLqT5cI.css">
+  <link rel="stylesheet" crossorigin href="/coffee-joy/assets/index-DWCgjbtu.css">
 </head>
 
 <body>
@@ -75,56 +75,38 @@
     
     
     
-    <section>
-  <div class="container subscribe">
-    <div>
-      <h2 class="subscribe-title">Join Our Coffee Community</h2>
-      <p class="subscribe-page">
-        Experience the joy of coffee delivered right to your door. Sign up
-        today!
-      </p>
-      <div class="cont-input">
-        <input
-          id="sub"
-          class="subscribe-input"
-          type="text"
-          placeholder="Your Email Here"
-        />
-        <button class="subscribe-btn">
-          Subscribe
-          <svg class="subscribe-icon" width="24" height="24">
-            <use href="../img/subscribe.svg"></use>
-          </svg>
-        </button>
-        <label class="subscribe-label" for="sub"
-          >By clicking Get Started, you agree to our Terms and
-          Conditions.</label
-        >
+    <section class="subscribe">
+  <div class="container">
+    <div class="subscribe-container">
+      <div class="sub-form-container">
+        <h2 class="subscribe-title">Join Our Coffee Community</h2>
+        <p class="subscribe-text">
+          Experience the joy of coffee delivered right to your door. Sign up
+          today!
+        </p>
+        <form class="sub-form">
+          <label class="subscribe-label" for="sub">
+            <input id="sub" class="subscribe-input" type="email" placeholder="Your Email Here" required />
+          </label>
+          <button class="subscribe-btn">
+            Subscribe
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="../img/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </form>
+        <p class="subscribe-info">By clicking Get Started, you agree to our Terms and
+          Conditions.</p>
       </div>
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/coffee-joy/assets/sub-img-comp-H_RZDexi.jpg 1x, /coffee-joy/assets/sub-img-comp@2x-BzSFLum4.jpg 2x" />
+        <source media="(min-width: 768px)" srcset="/coffee-joy/assets/sub-img-tablet-BwyrnGnU.jpg 1x, /coffee-joy/assets/sub-img-tablet@2x-YLBMJqu6.jpg 2x" />
+        <source media="(min-width: 320px)" srcset="/coffee-joy/assets/sub-img-XYz2p3WL.jpg 1x, /coffee-joy/assets/sub-img@2x-CyYPy0QD.jpg 2x" />
+        <img class="subscribe-img" src="/coffee-joy/assets/sub-img-XYz2p3WL.jpg" alt="comunity photo" max-width="288px" />
+      </picture>
     </div>
-    <picture>
-      <source
-        media="(min-width: 1440px)"
-        srcset="/coffee-joy/assets/sub-img-comp-H_RZDexi.jpg 1x, /coffee-joy/assets/sub-img-comp@2x-BzSFLum4.jpg 2x"
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="/coffee-joy/assets/sub-img-tablet-BwyrnGnU.jpg 1x, /coffee-joy/assets/sub-img-tablet@2x-YLBMJqu6.jpg 2x"
-      />
-      <source
-        media="(min-width: 320px)"
-        srcset="/coffee-joy/assets/sub-img-XYz2p3WL.jpg 1x, /coffee-joy/assets/sub-img@2x-CyYPy0QD.jpg 2x"
-      />
-      <img
-        class="subscribe-img"
-        src="/coffee-joy/assets/sub-img-XYz2p3WL.jpg"
-        alt="comunity photo"
-        max-width="288px"
-      />
-    </picture>
   </div>
 </section>
-
     
     
   </main>
