@@ -66,6 +66,10 @@
   }
 }
 
+.star-item {
+  display: flex;
+}
+
 .stars {
   display: flex;
   margin-bottom: 24px;
