@@ -187,10 +187,17 @@
     border-radius: 40px;
 }
 
+
 .subscribe-img {
     width: 100%;
 }
 
 .sub-img-wrapper {
     width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+    .sub-img-wrapper {
+        width: 640px;
+    }
 }
