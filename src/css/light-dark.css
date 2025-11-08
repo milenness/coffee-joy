@@ -124,6 +124,7 @@ body {
 /* Dark theme: header */
 [data-theme='dark'] .header {
   border-bottom: 2px solid #0b0803;
+  background-color: #332317;
 }
 
 /* Dark theme: subscribe input */
