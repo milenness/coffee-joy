@@ -110,14 +110,12 @@ body {
 
 /* Dark theme: footer */
 [data-theme='dark'] .footer {
-  border-top: 2px solid #0b0803;
   background-color: #443022;
 }
 
 /* Dark theme: footer container */
 [data-theme='dark'] .footer-container {
   background-color: #332317;
-  border: 2px solid #0b0803;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
 }
 
@@ -128,11 +126,20 @@ body {
 }
 
 /* Dark theme: subscribe input */
+[data-theme='dark'] .subscribe-input::placeholder {
+  color: #946d53;
+}
+
 [data-theme='dark'] .subscribe-input {
-  background-color: #946d53;
+  border: 1px solid #e0cbb4;
 }
 
 /* Dark theme: star icon */
 [data-theme='dark'] .icon-star {
   stroke: #e0cbb4;
+}
+
+/* Dark theme: location icon */
+[data-theme='dark'] .location-contact-icon {
+  fill: #E0CBB4;
 }
