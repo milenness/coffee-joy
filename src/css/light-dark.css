@@ -24,9 +24,9 @@ body {
 
 /* Theme Toggle Button */
 .theme-toggle {
-  position: fixed;
-  top: 14px;
-  left: 20px;
+  position: absolute;
+  top: 80px;
+  right: 16px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -41,6 +41,18 @@ body {
     transform 0.3s ease;
   z-index: 999;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width:768px) {
+  .theme-toggle {
+    right: 32px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .theme-toggle {
+    right: 64px;
+  }
 }
 
 /* Hover effect for toggle button */
@@ -77,7 +89,7 @@ body {
 .theme-toggle .moon {
   opacity: 0;
   transform: rotate(90deg) scale(0.5);
-  color: #f5f2e7;
+  color: #E0CBB4;
   filter: drop-shadow(0 0 0px transparent);
 }
 
@@ -87,7 +99,7 @@ body {
 }
 
 .theme-toggle:hover .moon {
-  filter: drop-shadow(0 0 8px #c5e4ff);
+  filter: drop-shadow(0 0 8px #eadfd6);
 }
 
 /* Dark theme — reverse icons (show moon, hide sun) */
@@ -125,6 +137,10 @@ body {
   background-color: #332317;
 }
 
+[data-theme='dark'] .burger-icon {
+  fill: #E0CBB4;
+}
+
 /* Dark theme: subscribe input */
 [data-theme='dark'] .subscribe-input::placeholder {
   color: #946d53;
@@ -143,7 +159,10 @@ body {
   fill: #E0CBB4;
 }
 
-/* Dark theme: location icon */
+[data-theme='dark'] .social-icon:hover {
+  fill: #54524E;
+}
+
 [data-theme='dark'] .location-contact-icon {
   fill: #E0CBB4;
 }
@@ -154,4 +173,8 @@ body {
 
 [data-theme='dark'] .close-icon {
   fill: #E0CBB4;
+}
+
+[data-theme='dark'] .mobile-menu {
+  background-color: #443022;
 }

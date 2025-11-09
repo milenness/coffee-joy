@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const root = document.documentElement;
   let toggleBtn = null;
 
-  // Media query that checks for wide screens (1440px and above)
-  const mqWide = window.matchMedia('(min-width: 1440px)');
+  // Media query that checks for wide screens (320px and above)
+  const mqWide = window.matchMedia('(min-width: 320px)');
 
   /**
    * Creates the theme toggle button
