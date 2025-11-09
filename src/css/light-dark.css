@@ -53,10 +53,8 @@ body {
 @media screen and (min-width:1440px) {
   .theme-toggle {
     left: 10px;
-    top: 18px;
+    top: 15px;
     position: fixed;
-    width: 30px;
-    height: 30px;
   }
 }
 
