@@ -150,6 +150,7 @@ body {
 }
 
 [data-theme='dark'] .subscribe-input {
+  color: #ffff;
   border: 1px solid #e0cbb4;
 }
 
