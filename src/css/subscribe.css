@@ -164,7 +164,8 @@
     transition: color 250ms ease-in-out;
 }
 
-.policy-link:hover {
+.policy-link:hover,
+.policy-link:focus {
     color: #54524E;
 }
 
@@ -182,11 +183,6 @@
     line-height: 1.5;
     color: rgba(11, 8, 3, 0.6);
 }
-
-.subscribe-img {
-    border-radius: 40px;
-}
-
 
 .subscribe-img {
     width: 100%;

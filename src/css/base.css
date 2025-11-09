@@ -70,7 +70,7 @@ button {
   border: none;
 }
 
-body:has(.modal-backdrop.is-open) {
+body:has(.modal-backdrop.subscription-open) {
   overflow: hidden;
 }
 
@@ -115,7 +115,8 @@ body:has(.mobile-menu.is-open) {
 
 @media (hover: hover) {
 
-  .btn:hover {
+  .btn:hover,
+  .btn:focus {
     opacity: 0.5;
   }
 

@@ -88,7 +88,15 @@
 .location-contact-link {
     font-size: 16px;
     text-decoration: underline;
+    transition: color 250ms ease-in-out;
 }
+
+.location-contact-link:hover,
+.location-contact-link:focus {
+    fill: #54524E;
+    color: #54524E;
+}
+
 
 .location-text {
     font-size: 16px;
@@ -98,6 +106,7 @@
 
 .navigation-icon {
     display: flex;
+    transition: fill 250ms ease-in-out;
 }
 
 .location-link {
@@ -105,6 +114,13 @@
     font-size: 16px;
     display: flex;
     align-items: center;
+    transition: color 250ms ease-in-out;
+}
+
+.location-link:hover,
+.location-link:focus {
+    color: #54524E;
+    fill: #54524E;
 }
 
 .link-text {

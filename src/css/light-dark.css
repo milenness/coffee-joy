@@ -147,3 +147,11 @@ body {
 [data-theme='dark'] .location-contact-icon {
   fill: #E0CBB4;
 }
+
+[data-theme='dark'] .modal-welcome {
+  background-color: #332317;
+}
+
+[data-theme='dark'] .close-icon {
+  fill: #E0CBB4;
+}
