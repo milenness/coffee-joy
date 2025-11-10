@@ -2,8 +2,21 @@
   padding: 64px 0;
 }
 
+@media only screen and (min-width: 1440px) {
+  .location-cotainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .location-content {
   margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .location-content {
+    margin-bottom: 0;
+  }
 }
 
 .tagline-wrapper {
@@ -19,6 +32,12 @@
   margin-bottom: 24px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .location-title {
+    font-size: 48px;
+  }
+}
+
 .location-wrapper-text {
   margin-bottom: 40px;
 }
@@ -27,6 +46,30 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .location-contact-list {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .location-contact-list {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .location-contact-item {
+    flex-basis: calc((100% - 80px) / 3);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .location-contact-item {
+    flex-basis: 100%;
+  }
 }
 
 .location-contact-icon {
@@ -88,4 +131,17 @@
   width: 100%;
   height: 307px;
   border-radius: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .location-map {
+    height: 377px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .location-map {
+    width: 869px;
+    height: 697px;
+  }
 }
