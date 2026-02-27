@@ -1,4 +1,4 @@
-# ☕ CoffeeJoy — Specialty Coffee Experience
+# ☕ CoffeeJoy
 
 ## 🔗 [Live Demo](https://milenness.github.io/coffee-joy/)
 
@@ -28,3 +28,4 @@ In this project, I served as the **Team Lead**, where I:
 ## 🤝 Contact
 
 [LinkedIn](https://www.linkedin.com/in/milena-karpenko) | [Telegram](https://t.me/sombrM) | [Email](mailto:milen.karpenko@gmail.com)
+
